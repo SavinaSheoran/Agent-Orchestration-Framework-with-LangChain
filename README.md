@@ -19,7 +19,7 @@ Clean OOP (Class-Based) architecture
 
 
 ## Project Structure
-
+```
 llm_app/
 │── .venv/                 # Virtual environment
 │── .env                   # API key stored securely
@@ -29,33 +29,40 @@ llm_app/
 │── pyproject.toml         # Dependencies + project config
 │── README.md              # Project documentation
 │── uv.lock
-
+```
 
 
 
 # Installation
 
-# 1. Clone repository
+## 1. Clone repository
 
-git clone <your-repo-url>
+```
+git clone <https://github.com/SavinaSheoran/Agent-Orchestration-Framework-with-LangChain>
 cd llm_app
+```
 
-# 2. Create & activate virtual environment
+## 2. Create & activate virtual environment
 
+```
 python -m venv .venv
 .venv\Scripts\activate    # Windows
+```
 
 # Environment Variables
 
+```
 GOOGLE_API_KEY=your_api_key_here
+```
 
 # Run the App
-
+```
 python main.py
 
+```
 
-# Output
-
+## Output
+```
 You will see:
 
 Explanation of AI
@@ -65,10 +72,10 @@ Formatted prompt
 Agent-generated response
 
 Interactive console to chat with LLM
+```
 
-
-# Features
-
+## Features
+```
 1. Basic Prompt → LLM → Parser Chain
 
 Explains any topic with a simple example.
@@ -86,3 +93,4 @@ Choose between:
 >agent → reasoning agent
 
 >exit → close program
+```
