@@ -7,7 +7,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain.agents import create_agent
 from tools import tools
-from prompts import SYSTEM_PROMPT
+from prompts import system_prompt as  SYSTEM_PROMPT
 
 load_dotenv()
 
