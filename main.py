@@ -82,8 +82,7 @@ def run_multi_agent_console():
         if query.lower() == "exit":
             print("Goodbye!")
             break
-        
-        import ipdb;ipdb.set_trace()
+
         result = run_pipeline(query)
 
         print("\n--- Research Output ---")
