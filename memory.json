@@ -1,4 +1,12 @@
 {
-    "last_user_input": "what is stock price of INFY.BSE",
-    "last_ai_response": "The stock price for INFY.BSE on December 12, 2025, opened at 1602.0500, had a high of 1602.0500, a low of 1582.3000, and closed at 1598.7500. The volume was 398050."
+    "last_user_input": "nearest planet to earth",
+    "last_ai_response": [
+        {
+            "type": "text",
+            "text": "The nearest planet to Earth is Venus.",
+            "extras": {
+                "signature": "CsoBAXLI2nxL+WevWL2aMGy0SoguMiadbhYw0gBQDSUWuUUhgQPpL7s5zjC7hJtSoPKLPlhiuMNswqz23r3pIw21nndp19t5O7pHwD4Q/UNdSReFh2knKeNX5VzV2FBQPR/1B2qqJKXIYhvSWMaXC3sqFjztYa1QPxVeXjKogx/6TIA0yx8OvAxUZ+vRzFH46WYgf7twsSFdgEI1LdeosYDXJvZcuYR6U8a2lr4qV5mVHIzn67/GnEHbr2l5/o1t6VdeibfAs6zV1OH/fQ=="
+            }
+        }
+    ]
 }
