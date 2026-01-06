@@ -271,3 +271,13 @@ It demonstrates strong proficiency in LangChain fundamentals,
 agent-based system design, tool orchestration, memory management,
 and real-world AI workflow automation.
 ```
+
+
+## ## Deployed Link
+
+```
+Local Deployment (Run Locally)
+FastAPI Docs: http://127.0.0.1:8000/docs
+Streamlit UI: http://localhost:8501
+
+```
