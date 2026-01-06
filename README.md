@@ -17,8 +17,6 @@ INTERNSHIP_PROJECT/
 │   ├── research_agent.py
 │   └── summarization_agent.py
 │
-├── llm_app/
-│
 ├── ui/
 │   └── app.py
 │
