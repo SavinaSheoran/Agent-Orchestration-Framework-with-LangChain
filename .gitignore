@@ -12,3 +12,5 @@ wheels/
 *.ipynb
 *.json
 */llm_app/
+__pycache__
+uv.lock

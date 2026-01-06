@@ -2,8 +2,9 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_core.chat_history import InMemoryChatMessageHistory
-
+import os
 _store = {}
+GEMINI_KEY = os.getenv("GEMINI_API_KEY")
 
 def _get_memory(session_id: str):
     if session_id not in _store:
@@ -12,8 +13,7 @@ def _get_memory(session_id: str):
 
 def create_summarizer_agent():
     llm = ChatGoogleGenerativeAI(
-        model="gemini-2.5-flash",
-        temperature=0.2
+        model="gemini-2.5-flash",api_key=GEMINI_KEY
     )
 
     prompt = ChatPromptTemplate.from_messages([

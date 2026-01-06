@@ -1,0 +1,61 @@
+# Core LLM & Agent Framework
+langchain>=0.1.0
+langchain-community>=0.0.30
+langchain-google-genai>=0.0.8
+
+# Google Gemini LLM
+google-generativeai>=0.4.0
+
+# Memory & Vector Store
+faiss-cpu>=1.7.4
+
+# API Development (Milestone 4)
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# Frontend UI (Milestone 4)
+streamlit>=1.32.0
+
+# Environment Variable Management
+python-dotenv>=1.0.1
+
+# HTTP Requests for Tools / APIs
+requests>=2.31.0
+
+# Data Handling
+pydantic>=2.6.0
+
+# Optional (used internally by LangChain)
+tiktoken>=0.6.0
+
+#🔹 Milestone 1 – Basic Agent
+
+- langchain
+
+- langchain-google-genai
+
+- google-generativeai
+
+- python-dotenv
+
+#🔹 Milestone 2 – Tools
+
+- requests
+
+- langchain-community
+
+- pydantic
+
+#🔹 Milestone 3 – Multi-Agent + Memory
+
+- faiss-cpu
+
+- langchain-community
+
+#🔹 Milestone 4 – API + UI
+
+- fastapi
+
+- uvicorn
+
+- streamlit

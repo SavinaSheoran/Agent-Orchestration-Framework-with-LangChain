@@ -22,7 +22,10 @@ def stock_price(stock_symbol: str) -> str:
         r = requests.get(url)
         data = r.json()
         data = data['Global Quote']
-        return f"""Stock Symbol: {data.get('01. symbol', 'N/A')} | Open: {data.get('02. open', 'N/A')} | High: {data.get('03. high', 'N/A')} | Low: {data.get('04. low', 'N/A')} | Close: {data.get('05. price', 'N/A')} | Volume: {data.get('06. volume', 'N/A')} | Latest Trading Day: {data.get('07. latest trading day', 'N/A')}"""
+        return f"""Stock Symbol: {data.get('01. symbol', 'N/A')} 
+        | Open: {data.get('02. open', 'N/A')} | High: {data.get('03. high', 'N/A')} | Low: {data.get('04. low', 'N/A')} 
+        | Close: {data.get('05. price', 'N/A')} | Volume: {data.get('06. volume', 'N/A')} 
+        | Latest Trading Day: {data.get('07. latest trading day', 'N/A')}"""
 
     except Exception:
         return f"Error: Could not fetch stock price information for '{stock_symbol}'."
